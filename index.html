@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的日常</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #ffffff;
+      color: #222;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 2em 1em;
+      font-size: 2.5em;
+      font-weight: bold;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1em;
+      padding: 1em;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .map-section {
+      padding: 2em 1em;
+    }
+    .map-frame {
+      width: 100%;
+      height: 400px;
+      margin-bottom: 1em;
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>我的日常</header>
+
+  <section class="gallery">
+    <!-- 範例圖片，可替換為你的圖片連結 -->
+    <img src="https://source.unsplash.com/featured/?city,night" alt="攝影作品">
+    <img src="https://source.unsplash.com/featured/?nature,minimal" alt="攝影作品">
+    <img src="https://source.unsplash.com/featured/?street,photography" alt="攝影作品">
+    <img src="https://source.unsplash.com/featured/?shadow,light" alt="攝影作品">
+    <img src="https://source.unsplash.com/featured/?architecture,minimal" alt="攝影作品">
+    <img src="https://source.unsplash.com/featured/?blackandwhite,city" alt="攝影作品">
+    <img src="https://source.unsplash.com/featured/?tree,solitude" alt="攝影作品">
+    <img src="https://source.unsplash.com/featured/?urban,geometry" alt="攝影作品">
+    <img src="https://source.unsplash.com/featured/?clouds,sky" alt="攝影作品">
+  </section>
+
+  <section class="map-section">
+    <!-- 拍攝地點地圖嵌入 -->
+    <iframe class="map-frame" src="https://www.google.com/maps?q=25.038,121.564&z=15&output=embed"></iframe>
+    <iframe class="map-frame" src="https://www.google.com/maps?q=25.034,121.545&z=15&output=embed"></iframe>
+    <iframe class="map-frame" src="https://www.google.com/maps?q=25.042,121.535&z=15&output=embed"></iframe>
+    <iframe class="map-frame" src="https://www.google.com/maps?q=25.0527,121.5208&z=17&output=embed"></iframe>
+    <iframe class="map-frame" src="https://www.google.com/maps?q=25.046,121.517&z=15&output=embed"></iframe>
+    <iframe class="map-frame" src="https://www.google.com/maps?q=25.048,121.532&z=15&output=embed"></iframe>
+    <iframe class="map-frame" src="https://www.google.com/maps?q=25.040,121.559&z=15&output=embed"></iframe>
+    <iframe class="map-frame" src="https://www.google.com/maps?q=25.036,121.562&z=15&output=embed"></iframe>
+    <iframe class="map-frame" src="https://www.google.com/maps?q=25.041,121.547&z=15&output=embed"></iframe>
+    <iframe class="map-frame" src="https://www.google.com/maps?q=25.043,121.553&z=15&output=embed"></iframe>
+    <iframe class="map-frame" src="https://www.google.com/maps?q=25.035,121.544&z=15&output=embed"></iframe>
+    <iframe class="map-frame" src="https://www.google.com/maps?q=25.039,121.555&z=15&output=embed"></iframe>
+    <iframe class="map-frame" src="https://www.google.com/maps?q=25.045,121.559&z=15&output=embed"></iframe>
+    <iframe class="map-frame" src="https://www.google.com/maps?q=25.037,121.548&z=15&output=embed"></iframe>
+  </section>
+</body>
+</html>
